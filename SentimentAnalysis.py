@@ -59,8 +59,9 @@ def main():
     boolWC = input("Would you like to visualize the most common words in wordCloud? (y/n) ")
     if boolWC in ['y', "Y"]:
         AllWords = ' '.join( [tweets for tweets in df['Tweets']] )
-        wordCloud = WordCloud(width = 500, height = 300, random_state = 21,
-                              max_font_size = 119).generate(AllWords)
+        wordCloud = WordCloud(width = 800, height = 500, random_state = 21,
+                              max_font_size = 119,
+                              background_color = "white").generate(AllWords)
         plt.imshow(wordCloud, interpolation = 'bilinear')
         plt.axis('off')
         plt.show()
