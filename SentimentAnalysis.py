@@ -16,10 +16,10 @@ import matplotlib.pyplot as plt
 plt.style.use('fivethirtyeight')
 
 def main():
-    APIKey = "oqzW3jPzv1hZvlAS5BlrlFbdV"
-    APISecret = "pgIZySTEyLB6FHqbdVGLVkIt66f0P0ClK2Us3E6GtphYT13QUf"
-    AccessToken = "733414460216475649-dhOardBEM54iT8F19TuaaCZAWXqxO4s"
-    ATSecret = "1z9koRvH9DPp88e0Q7p0T8MghOzYOh10rpM89T5PCZ2nM"
+    APIKey = "PUT YOUR API KEY HERE"
+    APISecret = "PUT YOUR API SECRET HERE"
+    AccessToken = "PUT YOUR ACCESS TOKEN HERE"
+    ATSecret = "PUT YOUR ACCESS TOKEN SECRET HERE"
     
     ''' Authentication Object '''
     Authenticate = tweepy.OAuthHandler(APIKey, APISecret)
