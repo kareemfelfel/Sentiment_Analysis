@@ -13,7 +13,6 @@ from wordcloud import WordCloud
 import pandas as pd
 import re
 import matplotlib.pyplot as plt
-plt.style.use('fivethirtyeight')
 
 def main():
     APIKey = "PUT YOUR API KEY HERE"
